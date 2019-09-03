@@ -1,24 +1,25 @@
 {
-  "name": "ledger-cosmos-js",
+  "name": "ledger-mxw-js",
   "version": "0.0.0",
-  "description": "Node API for Cosmos App (Ledger Nano S/X)",
+  "description": "Node API for MXW App (Ledger Nano S/X)",
   "main": "./dist/index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/zondax/ledger-cosmos-js.git"
+    "url": "git+https://github.com/maxonrow/ledger-mxw-js.git"
   },
   "keywords": [
     "Ledger",
     "Javascript",
     "Tendermint",
-    "Cosmos"
+    "Cosmos",
+    "MXW"
   ],
-  "author": "ZondaX GmbH",
+  "author": "mxw",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/zondax/ledger-cosmos-js/issues"
+    "url": "https://github.com/maxonrow/ledger-mxw-js/issues"
   },
-  "homepage": "https://github.com/zondax/ledger-cosmos-js",
+  "homepage": "https://github.com/maxonrow/ledger-mxw-js",
   "dependencies": {
     "@babel/runtime": "^7.4.4",
     "@ledgerhq/hw-transport": "^4.35.0",

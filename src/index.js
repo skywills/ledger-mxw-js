@@ -132,8 +132,8 @@ export function signGetChunks(path, message) {
     return chunks;
 }
 
-export default class CosmosApp {
-    constructor(transport, scrambleKey = 'CSM') {
+export default class MxwApp {
+    constructor(transport, scrambleKey = 'MXW') {
         if (typeof transport === 'undefined') {
             throw new Error('Transport has not been defined');
         }
